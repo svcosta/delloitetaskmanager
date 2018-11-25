@@ -1,0 +1,12 @@
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\Delloite.TaskManager.Data.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\Delloite.TaskManager.Data.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\EntityFramework.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\EntityFramework.SqlServer.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\EntityFramework.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Release\EntityFramework.SqlServer.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Data.csprojResolveAssemblyReference.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Delloite.TaskManager.Data.Migrations.Initial.resources
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Data.csproj.GenerateResource.Cache
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Data.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Delloite.TaskManager.Data.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Release\Delloite.TaskManager.Data.pdb

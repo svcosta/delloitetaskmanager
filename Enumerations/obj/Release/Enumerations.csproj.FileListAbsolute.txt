@@ -1,0 +1,6 @@
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\bin\Release\Delloite.TaskManager.Enumerations.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\bin\Release\Delloite.TaskManager.Enumerations.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\obj\Release\Enumerations.csprojResolveAssemblyReference.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\obj\Release\Enumerations.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\obj\Release\Delloite.TaskManager.Enumerations.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Enumerations\obj\Release\Delloite.TaskManager.Enumerations.pdb

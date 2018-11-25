@@ -1,0 +1,5 @@
+D:\TI\Delloite\project\Delloite.TaskManager\DataTransferObject\bin\Release\Delloite.TaskManager.DataTransferObject.dll
+D:\TI\Delloite\project\Delloite.TaskManager\DataTransferObject\bin\Release\Delloite.TaskManager.DataTransferObject.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\DataTransferObject\obj\Release\DataTransferObject.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\DataTransferObject\obj\Release\Delloite.TaskManager.DataTransferObject.dll
+D:\TI\Delloite\project\Delloite.TaskManager\DataTransferObject\obj\Release\Delloite.TaskManager.DataTransferObject.pdb

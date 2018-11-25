@@ -1,0 +1,17 @@
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Services.dll.config
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Services.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Services.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Data.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.DataTransferObject.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Enumerations.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\EntityFramework.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.DataTransferObject.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Data.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\Delloite.TaskManager.Enumerations.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\EntityFramework.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Services\bin\Debug\EntityFramework.SqlServer.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Services\obj\Debug\Delloite.TaskManager.Services.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Services\obj\Debug\Delloite.TaskManager.Services.pdb

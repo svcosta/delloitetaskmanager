@@ -1,0 +1,5 @@
+D:\TI\Delloite\project\Delloite.TaskManager\Common\bin\Debug\Delloite.TaskManager.Common.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Common\bin\Debug\Delloite.TaskManager.Common.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Common\obj\Debug\Delloite.TaskManager.Common.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Common\obj\Debug\Delloite.TaskManager.Common.pdb

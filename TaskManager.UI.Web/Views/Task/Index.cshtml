@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "My Tasks";
+}
+
+<div class="container">
+    <div>
+        <div style="width:80%; float:left;">
+            <h2>My Tasks</h2>
+        </div>
+        <div style="width:20%; float:right; padding:5px;">           
+            <a href="~/Task/Create" class="btn btn-primary">Create New Task</a>
+        </div>
+    </div>
+    
+    <table class="table" id="tableTasks">
+        <thead>
+            <tr>
+                <th>Task Id</th>
+                <th>Owner</th>
+                <th>Title</th>
+                <th>Status</th>
+                <th>Priority</th>
+                <th>Date Modified</th>
+                <th>Details</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>           
+
+        </tbody>
+    </table>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/taskManager/tasksJs.js"></script>
+
+}
+
+   

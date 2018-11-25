@@ -1,0 +1,51 @@
+﻿@model Delloite.TaskManager.DataTransferObject.TaskDTO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create New Task</h2>
+
+<div class="alert alert-danger" id="erroMessage" style="display:none;">   
+</div>
+
+<form class="form-inline">
+    <div>
+        <label for="text">Priority:</label>
+    </div>
+    <div>
+        <select class="custom-select" id="ddPriority" required>          
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+            <option>None</option>
+        </select>
+    </div> 
+    <div>
+        <label for="text">Title:</label>
+    </div>
+    <div>
+        <input type="text" class="form-control" id="title" placeholder="" name="title" required>
+    </div>
+    <div>
+        <label for="text">Description:</label>
+    </div>
+    <div>
+        <input type="text" class="form-control" id="description" name="description" required>
+    </div>
+
+    <div style="padding:5px;">
+        <button type="button" id="btnSubmit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-danger" href="/task/index">Back to List</a>
+
+    </div>
+
+</form>
+
+
+    
+
+@section Scripts {
+<script src="~/Scripts/taskManager/taskAddJs.js"></script>
+}

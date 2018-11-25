@@ -1,0 +1,145 @@
+﻿@model Delloite.TaskManager.DataTransferObject.TaskDTO
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>
+    @Model.Title
+</h2>
+
+<div>
+    <p>
+        Created by @Model.User.UserName on @Model.CreationDate.ToString("dd/MM/yyyy hh:mm")
+    </p>
+    <p>
+        Modified @Model.LastModifiedDate.ToString("dd/MM/yyyy hh:mm")
+    </p>
+</div>
+
+<div class="alert alert-danger" id="erroMessage" style="display:none;">
+</div>
+
+<form class="form-inline">
+    <div>
+        <label for="text">Owner:</label>
+    </div>
+    <div>
+        <select class="custom-select" id="ddOwmer" required>
+            <option value="1">test</option>
+            <option value="2">test2</option>
+            <option value="3">test3</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="text">Priority:</label>
+    </div>
+    <div>
+        <select class="custom-select" id="ddPriority" required>
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+            <option>Critical</option>
+            <option>None</option>
+        </select>
+    </div>
+    <div>
+        <label for="text">Status:</label>
+    </div>
+    <div>
+        <select class="custom-select" id="ddStatus" required>
+            <option>Open</option>
+            <option>InProgress</option>
+            <option>ForValidation</option>
+            <option>OnHold</option>
+            <option>Closed</option>
+        </select>
+    </div>
+    <div>
+        <label for="text">Description:</label>
+    </div>
+    <div>
+        <input type="text" class="form-control" id="description" name="description" required>
+    </div>
+
+    <div style="padding:5px;">
+        <button type="button" id="btnSubmit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-danger" href="/task/index">Back to List</a>
+
+    </div>
+
+</form>
+
+
+
+@section Scripts {
+
+<script>
+    
+    if (localStorage.token === "" || localStorage.token === undefined) {
+        document.location.replace('/home/index');
+    }
+
+    var task = {
+            ddUser: $('#ddOwmer'),
+            ddPriority: $('#ddPriority'),
+            ddStatus: $('#ddStatus'),
+            title: $("#title"),
+            description: $("#description"),
+            button: $("#btnSubmit"),
+            msg: $("#erroMessage")
+        }
+
+        task.button.click(function (e) {
+
+            e.preventDefault();
+
+            if (task.title.val() === "") {
+                task.msg.addClass("alert-danger").text("Please,The field Title is obligatory").fadeIn("slow");
+                return false;
+            }
+
+            if (task.description.val() === "") {
+                task.msg.addClass("alert-danger").text("Please,The field Description is obligatory").fadeIn("slow");
+                return false;
+            }
+          
+            $.ajax({
+                url: '/Task/Edit',
+                data: JSON.stringify({
+                    Id:@Model.Id,                   
+                    OwnerId: task.ddUser.val(),
+                    UserUpdateId:@Model.UserId,
+                    Priority: task.ddPriority.val(),
+                    Status: task.ddStatus.val(),                  
+                    Description: task.description.val()
+                }),
+
+                contentType: "application/json; charset=utf-8",
+                type: 'POST',
+                headers: { "Authorization": localStorage.token },
+                cache: false,
+                success: function (data) {
+
+                    if (data.result) {
+                        task.msg.removeClass("alert-danger").addClass("alert-success").text(data.msg).fadeIn(300).fadeOut(5000);
+
+                    } else {
+                        task.msg.addClass("alert-danger").text(data.msg).fadeIn("slow");
+                    }
+                }
+            });
+
+        });
+
+        $(function () {
+            task.msg.hide();            
+            task.ddUser.val("@Model.OwnerId");
+            task.ddPriority.val("@Model.Priority");
+            task.ddStatus.val("@Model.Status");
+            task.description.val("@Model.Description");
+        });
+</script>
+
+}

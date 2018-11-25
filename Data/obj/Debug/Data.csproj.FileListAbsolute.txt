@@ -1,0 +1,10 @@
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\Delloite.TaskManager.Data.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\Delloite.TaskManager.Data.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\EntityFramework.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\EntityFramework.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Debug\Delloite.TaskManager.Data.dll
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Debug\Delloite.TaskManager.Data.pdb
+D:\TI\Delloite\project\Delloite.TaskManager\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

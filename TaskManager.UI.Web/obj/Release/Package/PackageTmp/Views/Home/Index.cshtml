@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<div class="container">
+    <h2>Login</h2>
+    <p>Please, inform your UserName and Passowrd</p>
+
+    <div class="alert alert-danger" id="erroMessage">
+        <strong>Error!</strong> UserName or password invalid
+    </div>
+
+    <form class="form-inline">
+       
+            <label for="text">UserName:</label>
+            <input type="text" class="form-control" id="userName" placeholder="Enter your UserName" name="userName">      
+        
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        
+            <button type="button" id="btnLogin" class="btn btn-primary">Login</button>
+        
+    </form>
+</div>
+
+@section scripts {
+    <script defer src="~/Scripts/taskManager/login.js"></script>
+}
